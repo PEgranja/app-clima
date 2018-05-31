@@ -1,0 +1,19 @@
+{
+  "name": "unittest",
+  "version": "1.0.0",
+  "description": "Aplicacion para pruebas unitarias",
+  "main": "clima.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "request": "^2.83.0",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0",
+    "zombie": "^5.0.7"
+  }
+}

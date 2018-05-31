@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>App-Clima</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    </head>
+    <body>
+        <div class="contenedor">
+            <div>
+                <input id="botonActualizar" class="botonActualizarCSS" type="image" src="images/reload-icon.png" />
+            </div>
+            <div class="ubicacionCSS">
+                <img src="images/location.png">
+                <p class="ubicacion">INFO</p>
+            </div>
+            <div class="temperaturaCSS">
+                <p class="temperature">0</p>
+            </div>
+            <div class="columnasCSS">
+                <div>
+                    <p>HUMIDITY</p>
+                    <p class="humidity">0</p>
+                </div>
+                <div class="columnaDosCSS">
+                    <p class="icon">INFO</p>
+                    <p class="precip">0</p>
+                </div>
+            </div>
+            <div>
+                <p class="summary">INFO</p>
+            </div>
+            <div class="darkSkyCSS">
+                <img src="images/poweredby-darkbackground.png">
+            </div>
+        </div>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/clima.js"></script>
+    </body>
+</html> 

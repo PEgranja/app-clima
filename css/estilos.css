@@ -1,0 +1,63 @@
+body {
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+    color: white;
+}
+
+.contenedor {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.ubicacionCSS {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.temperaturaCSS {
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 100px;
+}
+
+.columnasCSS {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+
+.columnaDosCSS {
+    padding-left: 100px;
+}
+
+.summary {
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.botonActualizarCSS{
+    text-align: center;
+    height:50px;
+    width:50px;
+    background-position:center;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+.darkSkyCSS {
+    text-align: right;
+}
